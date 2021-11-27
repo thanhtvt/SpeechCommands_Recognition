@@ -1,0 +1,20 @@
+# base
+torchaudio==0.9
+torch
+torchvision
+sklearn
+
+# calculating
+numpy
+pandas
+scipy
+
+# audio processing
+librosa
+
+# plotting
+matplotlib
+seaborn
+
+# progress bar
+tqdm
