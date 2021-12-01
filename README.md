@@ -68,16 +68,18 @@ Estimated Total Size (MB): 51.11
 ![MFCC](imgs/mfcc.png)
   
 ## Prediction results
-In the end, my model achieved an accuracy of 79% on the test set (There are many room for improvement since my main purpose is to introduce some visualization techniques). Below is the confusion matrix of my predictions against the ground truth.  
+In the end, my model achieved an accuracy of 79% on the test set (There are many room for improvement since my main purpose is to introduce some visualization techniques. Furthermore, my loss was still decreasing over time). If you want to continue from my pre-trained model, go [here](https://drive.google.com/drive/folders/1CmS75R405XgBZltuw0IBaR-OPvW4WbPe?usp=sharing)  
+  
+Below is the confusion matrix of my predictions against the ground truth.  
   
 ![confusion matrix](imgs/confusion_matrix.png)
-
+  
 ## How to improve?
 There are many ways to improve the result. Some of them maybe:  
 - Tuning the hyperparameters (highly recommend using [wandb.ai](https://wandb.ai/) for this purpose)
 - Augmenting the data (e.g. adding noise, adding background noise, adding background music, etc.)
 - Adjusting the model (e.g. adding more convolutional layers, adding more fully connected layers, etc.)
-- Changing the model architecture (e.g. using RNN instead of CNN, using a more complex model architecture, etc.)
+- Changing the model architecture (e.g. using RNN, ResNet, etc.)
   
 ## References
 - [Simple audio recognition: Recognizing keywords](https://www.tensorflow.org/tutorials/audio/simple_audio)
